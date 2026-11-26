@@ -1,0 +1,35 @@
+
+{
+  "name": "ScholarLink",
+  "description": "An open agentic network for student scholarship and university application support.",
+  "version": "1.0.0",
+  "agents": [
+    {
+      "id": "opportunity-finder",
+      "name": "Opportunity Finder",
+      "description": "Helps students discover scholarship and university opportunities.",
+      "capabilities": [
+        "scholarship-discovery",
+        "university-search"
+      ]
+    },
+    {
+      "id": "eligibility-checker",
+      "name": "Eligibility Checker",
+      "description": "Compares student profiles with published scholarship requirements.",
+      "capabilities": [
+        "eligibility-checking",
+        "requirement-analysis"
+      ]
+    },
+    {
+      "id": "application-planner",
+      "name": "Application Planner",
+      "description": "Helps students organize application tasks and deadlines.",
+      "capabilities": [
+        "task-planning",
+        "deadline-management"
+      ]
+    }
+  ]
+}
